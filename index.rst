@@ -11,42 +11,42 @@ Online Meal-Ordering Website (OMO)
    :maxdepth: 2
    :caption: Contents:
 
-1.Introduction 
-==============
-1.1 Purpose 
------------
+Introduction 
+============
+Purpose 
+-------
 This document was written to specify OMO’s website requirements specifications for the developers, designers, maintainers, and stakeholders.
 
-1.2 Scope 
----------
+Scope 
+-----
 OMO is an online meal ordering website, which basically from the community and to the community, from the community: as it provides the users with a verity of food options and deals associated with several restaurants; and to the community as it saves the user's effort of going around the street looking for good food deals and better experience.
 This website is beneficial to the users, restaurants, addvertisers, and organizations.
 
-1.3 Definitions and Abbreviations 
----------------------------------
-1.4 References  
---------------
+Definitions and Abbreviations 
+-----------------------------
+References  
+----------
 - Food Delivery service in WeChat app.
 - https://www.ubereats.com/
 
-2.The Overall Description 
-=========================
+The Overall Description 
+=======================
 
 
-2.1 Product Perspective 
------------------------
+Product Perspective 
+-------------------
 This website is a self-contained product: which means that it is not a sub of a larger website.
 Although, the idea not new, actually it is based on several examples (*as mentioned in the reference section*), but still this website is for a study purposes.
 
-2.2 Product Features 
---------------------
+Product Features 
+----------------
 The website allows the users to select thier location to provide the nearby restaurants deals, as well as a verity of categories that the user can choose from.
 also the user can select three ways to receive his orders, delivery, pick-up, or dine in.
 each meal has rating, orders count, and general details.
 the user can add meals to the cart, then select all the meals in the cart or some of them to proceed to the check-out where he can pay the total amount and receive the confirmation message as well as the order number.
 
-2.3 User Characteristics 
-------------------------
+User Characteristics 
+--------------------
 +-------+---------------------------------------------------------------+----------------+
 |Type   | Description                                                   | Privilege      |
 +=======+===============================================================+================+
@@ -55,31 +55,31 @@ the user can add meals to the cart, then select all the meals in the cart or som
 |User   | Can surface, log-in, create acount, and buy food              | Limited-Access |
 +-------+---------------------------------------------------------------+----------------+
 
-2.4 Operating Environment 
--------------------------
+Operating Environment 
+---------------------
 OMO must be accessible by the common browsers such as, Chrome, FireFox, IE, and Opera. for both Computers and Smart-Phones.
 
-2.5 Constraints 
----------------
+Constraints 
+-----------
 * OMO must be secure and stable, there must be a at least two hosts such that in case of an outage of the first host the second host continue hosting the website so there is no any inconvenience to the customers. 
 * The interface must be focused on the food and only the food so the costumer don't get disturbed.
 * Ads must be relevent to the website content.
 * User's information must be protected and accessible only by the user himself and whom ever the user allow to access his/her data.
 * The traffic on the website must be well handled in a way that keeps hte website robust and stable.
 
-2.6 Assumptions 
----------------
+Assumptions 
+-----------
 * Some restaurants may prefer special ways to advertise thier products.
 * Maintainers might prefer to change the interface in order to improve the quality.
 * Users might type fake locations.
 * In some delivery cases there might be an ancident in the delivery process.
 * User may change his location after the order took place.
 
-3.Specific Requirements 
-=======================
+Specific Requirements 
+=====================
 
-3.1 Functional Requirements 
----------------------------
+Functional Requirements 
+-----------------------
 * **REQ1.0**: Admin account to add, delete, and update meals. 
 * **REQ2.0**: Location, the user can type his/her own location, or allow the system to locate his/her location.
 
@@ -127,11 +127,11 @@ OMO must be accessible by the common browsers such as, Chrome, FireFox, IE, and 
 
 * **REQ12.0**: After the check-out, the user redirected to the order information page, which contains the order number and the total amount payed by the user. 
 
-4. Use Cases 
-============
+Use Cases 
+=========
 
-4.1 Case 1 
-----------
+Case 1 
+------
 * **Name** : Set Location.
 * **Actor** : User, OMO
 * **Entry Condition** : 
@@ -157,8 +157,8 @@ OMO must be accessible by the common browsers such as, Chrome, FireFox, IE, and 
 
 NONE
 
-4.2 Case 2 
-----------
+Case 2 
+------
 
 * **Name** : Order a meal.
 * **Actor** : User, OMO.
@@ -189,8 +189,8 @@ NONE
 
 * *User*: must has valid way to pay his bill.
 
-4.3 Case 3 
-----------
+Case 3 
+------
 
 * **Name** : Admin Manipulation.
 * **Actor** : Admin
@@ -217,34 +217,34 @@ NONE
 
 NONE
 
-5.Non-Functional Requirements 
-=============================
+Non-Functional Requirements 
+===========================
 
-5.1 Performance Requirements 
-----------------------------
+Performance Requirements 
+------------------------
 
 Since this web application is used frequently, the server may have to stand a heavy load of requests. Thus may cause some problems such as the system will go down for several times or lose response to its clients. On the other hand, if users have a big amount of orders, the time complexity must be taken into consideration. For the optimization aspects, the response time of the application depends on the amount of orders at a given time, for most cases if the orders are between 500-1K in the same time the response time must be between 5-10 seconds, and les than that if the orders at the same time are < 500.
 
-5.2 Safety Requirements  
------------------------
+Safety Requirements  
+-------------------
 
 The website must safe, such that, it doesn't do harm to it's clients by allowing some viruses or malwares to reach the clients side. Also must be protected against any attacks that maight happen on the website.
 
-5.3 Security Requirements 
--------------------------
+Security Requirements 
+---------------------
 
 Only maintainers are allowed to access the back side of the website.
 Users are allowed on the front side only.
 Admin only can manipulate and populate the website.
 Strict authentications techniques must be taken in the account creation and log-in processes.
 
-6.Confidentiality Policy 
-========================
+Confidentiality Policy 
+======================
 
 As a public website, the security of data must be a significant part to be considered especially for users, when users are using the website, their data must be used and stored properly. In other words, the website must maintain the users data's reliability, integration and secrecy and the user data will not be published without the agreement of the owner.
 
-7.Future Changes 
-================
+Future Changes 
+==============
 
 TBA
 
