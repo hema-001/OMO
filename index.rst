@@ -243,14 +243,3 @@ Confidentiality Policy
 
 As a public website, the security of data must be a significant part to be considered especially for users, when users are using the website, their data must be used and stored properly. In other words, the website must maintain the users data's reliability, integration and secrecy and the user data will not be published without the agreement of the owner.
 
-Future Changes 
-==============
-
-TBA
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
