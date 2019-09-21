@@ -84,8 +84,8 @@ Functional Requirements
 * **REQ2.0**: Location, the user can type his/her own location, or allow the system to locate his/her location.
 
 .. image:: _templates/fig0.1.png
-   :height: 400
-   :width: 800
+   :height: 200
+   :width: 400
    :alt: Fig1.1: shows the location page then the main page.
 
 * **REQ3.0**: User can choose between, delivery, dine in, or pick-up. 
@@ -97,15 +97,15 @@ Functional Requirements
 * **REQ6.0**: For each restaurant the user can see multiple meal offers. 
 
 .. image:: _templates/fig0.2.png
-   :height: 400
-   :width: 800
+   :height: 200
+   :width: 400
    :alt: Fig1.2: shows the main page layout.
 
 * **REQ7.0**: For each meal user can see, name, price, rating, and number of orders. 
 
 .. image:: _templates/fig1.png
-   :height: 400
-   :width: 800
+   :height: 200
+   :width: 400
    :alt: Fig1.3: shows the meal offer container.
 
 * **REQ8.0**: User can select the meal either by the (+) plus button in the outter container of the meal(*see Fig1.3*), or by add to the cart button from inside the meal's page. 
@@ -113,16 +113,16 @@ Functional Requirements
 * **REQ10.0**: From the meal page selected meal page, the user can add sub-orders, for example soft drinks, sauce, chips, and so. 
 
 .. image:: _templates/fig2.png
-   :height: 400
-   :width: 800
+   :height: 200
+   :width: 400
    :alt: Fig1.4: shows the sub-orders layout.
 
 * **REQ11.0**: Cart, user can select the desired meals and get the total amount updated for each selected item in the cart, then proceed to the check-out. 
 * **REQ12.0**: In the check-out page, the user can use some coupons if available to get discounts, then he can pay by some of the payment methods, like WeChat, AliPay, Visa, and so on. 
 
 .. image:: _templates/fig3.png
-   :height: 400
-   :width: 800
+   :height: 200
+   :width: 400
    :alt: Fig1.5: shows the Check-out page.
 
 * **REQ12.0**: After the check-out, the user redirected to the order information page, which contains the order number and the total amount payed by the user. 
